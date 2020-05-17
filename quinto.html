@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class groups</title>
+    <link rel="stylesheet" href="src/style.css?version=0.10">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Class Groups</h1>
+    </header>
+
+   <div class="dashboard">
+       <div class="columna-resumen">
+           <h2>Quinto</h2>
+           <h4>25 alumnos</h4>
+           <a onclick="quintoPage()" class="button-arrow">
+               Ver alumnos <img src="assets/arrow-blue.png">
+           </a>
+       </div>
+       <div class="columna-grupos">
+            <h2>Grupos</h2>
+            <!-- EMPIEZA BUCLE -->
+            <a href="#">
+                <div class="class class-pointer">
+                    <div>
+                        <h2>01/03/2020</h2>
+                        <p>Campo para descripción</p>
+                    </div>
+                    
+                    <div class="num-alumnos">
+                            <button><img src="assets/arrow.png"></button>
+                    </div>
+                </div>
+            </a>
+            <!-- TERMINA BUCLE -->
+       </div>
+   </div>
+    
+    <script src="src/alumnos.js"></script>
+    <script src="src/clase.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>

@@ -6,7 +6,16 @@ const claseSexto = new Clase(arraySexto, "Sexto");
 colegio.push(claseQuinto);
 colegio.push(claseSexto);
 
-let mainDiv = document.querySelector("body");
+
+const grupo1 = new Grupo("01/01/2020", "Grupo para el mes de enero");
+const grupo2 = new Grupo("01/02/2020", "Grupo para el mes de febrero");
+const grupo3 = new Grupo("01/03/2020", "Grupo para el mes de marzo");
+
+claseQuinto.grupos.push(grupo1, grupo2, grupo3);
+
+
+
+let mainDiv = document.querySelector("#main-content");
 let mainAlumnos = document.getElementById("alumnos-main");
 
 function homePage(){
@@ -16,8 +25,8 @@ function homePage(){
     </header>
 
     <main>
-        <a onclick="quintoPage()">
-            <div class="class">
+        <a onclick="quintoDashboard()">
+            <div class="class class-pointer">
                 <h2>${claseQuinto.nombre}</h2>
                 <div class="num-alumnos">
                         <p>${claseQuinto.alumnos.length} alumnos</p>
@@ -27,7 +36,7 @@ function homePage(){
         </a>
 
         <a onclick="sextoPage()">
-            <div class="class">
+            <div class="class class-pointer">
                 <h2>${claseSexto.nombre}</h2>
                 <div class="num-alumnos">
                         <p>${claseSexto.alumnos.length} alumnos</p>
@@ -42,15 +51,30 @@ function homePage(){
 }
 
 function quintoPage(){
+    
     let html = 
     `
     <header>
         <h1><a href="index.html">Class Groups</a></h1>
         <div class="subheader">
-            <h2>Quinto</h2>
+            <h2>${claseQuinto.nombre}</h2>
         </div>
     </header>
-    <main>
+    
+    <div class="dashboard">
+       <div class="columna-resumen">
+           <h2>${claseQuinto.nombre}</h2>
+           <h4>${claseQuinto.alumnos.length} alumnos</h4>
+           <a onclick="quintoPage()" class="button-arrow">
+              Ver alumnos <img src="assets/arrow-blue.png">
+           </a>
+           <br>
+           <a onclick="quintoDashboard()" class="button-arrow">
+              Ver grupos <img src="assets/arrow-blue.png">
+           </a>
+       </div>
+       <div class="columna-grupos">
+            <h2>Alumnos</h2>
     `;
 
     claseQuinto.alumnos.forEach(alumno => {
@@ -78,7 +102,71 @@ function quintoPage(){
         html = html.concat(htmlBlock);
     });
 
-    html = html.concat("</main>");
+    html = html.concat(
+    `
+        </div>
+    </div>
+    
+    `);
+
+    mainDiv.innerHTML = html;
+}
+
+function quintoDashboard(){
+    let html = 
+    `
+    <header>
+    <h1><a href="index.html">Class Groups</a></h1>
+    <div class="subheader">
+        <h2>${claseQuinto.nombre}</h2>
+    </div>
+</header>
+
+<div class="dashboard">
+   <div class="columna-resumen">
+       <h2>${claseQuinto.nombre}</h2>
+       <h4>${claseQuinto.alumnos.length} alumnos</h4>
+           <a onclick="quintoPage()" class="button-arrow">
+              Ver alumnos <img src="assets/arrow-blue.png">
+           </a>
+           <br>
+           <a onclick="quintoDashboard()" class="button-arrow">
+              Ver grupos <img src="assets/arrow-blue.png">
+           </a>
+       </div>
+       <div class="columna-grupos">
+            <h2>Grupos</h2>
+    `;
+
+    claseQuinto.grupos.forEach(grupo => {
+        let htmlBlock = 
+        `
+        <a href="#">
+                <div class="class class-pointer">
+                    <div>
+                        <h2>${grupo.fecha}</h2>
+                        <p>${grupo.descripcion}</p>
+                    </div>
+                    
+                    <div class="num-alumnos">
+                            <button><img src="assets/arrow.png"></button>
+                    </div>
+                </div>
+        </a>
+
+        `;
+
+
+
+        html = html.concat(htmlBlock);
+    });
+
+    html = html.concat(
+    `
+        </div>
+    </div>
+    
+    `);
 
     mainDiv.innerHTML = html;
 }

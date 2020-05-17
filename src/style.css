@@ -72,6 +72,10 @@ main {
     border-radius: 10px;
     background-color: white;
     min-height: 100px;
+    width: 100%;
+}
+
+.class-pointer {
     cursor: pointer;
 }
 
@@ -134,6 +138,54 @@ main {
 .iniciales p{
     color: #1850ff;
 }
+
+.dashboard{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.columna-resumen {
+    background-color: #1850ff;
+    width: 40%;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    position: sticky;
+    top: 180px;
+    min-height: 40vh;
+}
+
+.columna-resumen h4{
+    padding-bottom: 50px;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0;
+}
+
+.columna-grupos {
+    padding: 30px;
+    width: 60%;
+}
+
+.button-arrow {
+    background-color: white;
+    padding: 15px 28px;
+    border-radius: 100px;
+    color: #1850ff;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+
+.button-arrow img {
+    width: 15px;
+    position: relative;
+    top: 2px;
+}
+
 
 @media all and (max-width: 768px){
     .class h2 {

@@ -4,6 +4,7 @@ class Clase {
         this.alumnos = alumnos;
         this.girls = this.numGirls();
         this.boys = this.numBoys();
+        this.grupos = [];
 
     }
 
