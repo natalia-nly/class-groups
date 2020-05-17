@@ -143,7 +143,7 @@ function quintoDashboard(){
         `
         <a href="#">
                 <div class="class class-pointer">
-                    <div>
+                    <div class="datos-grupos">
                         <h2>${grupo.fecha}</h2>
                         <p>${grupo.descripcion}</p>
                     </div>
@@ -171,16 +171,32 @@ function quintoDashboard(){
     mainDiv.innerHTML = html;
 }
 
+
 function sextoPage(){
+    
     let html = 
     `
     <header>
         <h1><a href="index.html">Class Groups</a></h1>
         <div class="subheader">
-            <h2>Sexto</h2>
+            <h2>${claseSexto.nombre}</h2>
         </div>
     </header>
-    <main>
+    
+    <div class="dashboard">
+       <div class="columna-resumen">
+           <h2>${claseSexto.nombre}</h2>
+           <h4>${claseSexto.alumnos.length} alumnos</h4>
+           <a onclick="sextoPage()" class="button-arrow">
+              Ver alumnos <img src="assets/arrow-blue.png">
+           </a>
+           <br>
+           <a onclick="sextoDashboard()" class="button-arrow">
+              Ver grupos <img src="assets/arrow-blue.png">
+           </a>
+       </div>
+       <div class="columna-grupos">
+            <h2>Alumnos</h2>
     `;
 
     claseSexto.alumnos.forEach(alumno => {
@@ -193,7 +209,7 @@ function sextoPage(){
                 </div>
                 <h2>${alumno.nombre} ${alumno.apellido}</h2>
             </div>
-          
+            
             <div class="datos-alumno">
                 <p>Nivel: <span>${alumno.nivel}</span></p>
                 <p>Comportamiento: <span>${alumno.comportamiento}</span></p> 
@@ -208,7 +224,85 @@ function sextoPage(){
         html = html.concat(htmlBlock);
     });
 
-    html = html.concat("</main>");
+    html = html.concat(
+    `
+        </div>
+    </div>
+    
+    `);
+
+    mainDiv.innerHTML = html;
+}
+
+function sextoDashboard(){
+    let html = 
+    `
+    <header>
+    <h1><a href="index.html">Class Groups</a></h1>
+    <div class="subheader">
+        <h2>${claseSexto.nombre}</h2>
+    </div>
+</header>
+
+<div class="dashboard">
+   <div class="columna-resumen">
+       <h2>${claseSexto.nombre}</h2>
+       <h4>${claseSexto.alumnos.length} alumnos</h4>
+           <a onclick="sextoPage()" class="button-arrow">
+              Ver alumnos <img src="assets/arrow-blue.png">
+           </a>
+           <br>
+           <a onclick="sextoDashboard()" class="button-arrow">
+              Ver grupos <img src="assets/arrow-blue.png">
+           </a>
+       </div>
+       <div class="columna-grupos">
+            <h2>Grupos</h2>
+    `;
+
+    if(claseSexto.grupos.length === 0){
+        let htmlBlock = 
+        `
+        <p>
+          Todavía no se han creado grupos para este curso.
+        </p>
+
+        `;
+
+        html = html.concat(htmlBlock);
+
+    } else {
+        claseSexto.grupos.forEach(grupo => {
+            let htmlBlock = 
+            `
+            <a href="#">
+                    <div class="class class-pointer">
+                        <div class="datos-grupos">
+                            <h2>${grupo.fecha}</h2>
+                            <p>${grupo.descripcion}</p>
+                        </div>
+                        
+                        <div class="num-alumnos">
+                                <button><img src="assets/arrow.png"></button>
+                        </div>
+                    </div>
+            </a>
+    
+            `;
+    
+    
+    
+            html = html.concat(htmlBlock);
+        });
+    }
+    
+
+    html = html.concat(
+    `
+        </div>
+    </div>
+    
+    `);
 
     mainDiv.innerHTML = html;
 }
