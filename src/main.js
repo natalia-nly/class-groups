@@ -29,4 +29,7 @@ colegio.forEach(clase => {
 
 });
 
-mainDiv.innerHTML = html;
+
+window.onload = () => {
+    mainDiv.innerHTML = html;
+};
