@@ -7,9 +7,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "Empático",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "Empático",
+            tres: "Nervioso"
         }
     },
     {
@@ -20,9 +20,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Extrovertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Extrovertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -33,9 +33,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Tranquilo"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Tranquilo"
         }
     },
     {
@@ -46,9 +46,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -59,9 +59,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -72,9 +72,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -85,9 +85,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -98,9 +98,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -111,9 +111,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -124,9 +124,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -137,9 +137,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -150,9 +150,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -163,9 +163,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -176,9 +176,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -189,9 +189,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -202,9 +202,9 @@ let arrayQuinto = [
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -215,9 +215,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -228,9 +228,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -241,9 +241,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -254,9 +254,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -267,9 +267,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -280,9 +280,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -293,9 +293,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -306,9 +306,9 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -319,25 +319,25 @@ let arrayQuinto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
 ];
 
 let arraySexto = [
     {
-        nombre: "Sara",
+        nombre: "Natalia",
         apellido: "López",
         genero: "Niña",
         nivel: "Alto",
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "Empático",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "Empático",
+            tres: "Nervioso"
         }
     },
     {
@@ -348,9 +348,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Extrovertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Extrovertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -361,9 +361,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -374,9 +374,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -387,9 +387,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -400,9 +400,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -413,9 +413,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -426,9 +426,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -439,9 +439,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -452,9 +452,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -465,9 +465,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -478,9 +478,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -491,9 +491,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -504,9 +504,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -517,9 +517,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -530,9 +530,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -543,9 +543,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -556,9 +556,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -569,9 +569,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -582,9 +582,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -595,9 +595,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -608,9 +608,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -621,9 +621,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
     {
@@ -634,9 +634,9 @@ let arraySexto = [
         comportamiento: "Mal comportamiento",
         necesidades: "",
         habilidadesSociales: {
-            1: "Introvertido",
-            2: "",
-            3: "Nervioso"
+            uno: "Introvertido",
+            dos: "",
+            tres: "Nervioso"
         }
     },
 ];

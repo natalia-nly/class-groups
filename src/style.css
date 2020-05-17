@@ -14,9 +14,32 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #1751ff;
+    min-height: 80px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbe1f3;
+    width: 100%;
+}
+
+.subheader h2 {
+    color: #1751ff;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1 {
+    color: white;
+}
+
+h1 a {
     color: white;
 }
 
@@ -29,19 +52,36 @@ main {
     margin: 0 auto;
 }
 
+#alumnos-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
 .class {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     box-shadow: 1px 1px 20px rgba(33, 33, 53, 0.1);
     margin: 20px 0;
-    padding: 0 30px;
+    padding: 10px 30px 20px 30px;
     border-radius: 10px;
     background-color: white;
     min-height: 100px;
+    cursor: pointer;
 }
 
+
 .class h2 {
+    text-decoration: none;
+    color: black;
+}
+
+.class h2:hover {
     text-decoration: none;
     color: black;
 }
@@ -52,7 +92,7 @@ main {
 
 .num-alumnos {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .num-alumnos button {
@@ -70,6 +110,31 @@ main {
 }
 
 
+.datos-alumno {
+    width: 100%;
+}
+
+.nombre-alumno {
+    display: flex;
+    align-items: baseline;
+}
+
+.iniciales{
+    background-color: #dbe1f4;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciales p{
+    color: #1850ff;
+}
+
 @media all and (max-width: 768px){
     .class h2 {
         font-size: 18px;
@@ -79,3 +144,4 @@ main {
         font-size: 14px;
     }
 }
+
