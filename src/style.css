@@ -17,7 +17,6 @@ header {
     min-height: 80px;
     position: sticky;
     top: 0;
-    margin-bottom: 50px;
 }
 
 .subheader {
@@ -202,6 +201,7 @@ main {
     }
 
     .dashboard{
+        margin-top: 50px;
         flex-wrap: wrap;
     }
 
@@ -227,5 +227,7 @@ main {
     .datos-grupos{
         width: 60%;
     }
+
+    
 }
 

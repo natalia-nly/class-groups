@@ -7,9 +7,9 @@ colegio.push(claseQuinto);
 colegio.push(claseSexto);
 
 
-const grupo1 = new Grupo("01/01/2020", "Grupo para el mes de enero");
-const grupo2 = new Grupo("01/02/2020", "Grupo para el mes de febrero");
-const grupo3 = new Grupo("01/03/2020", "Grupo para el mes de marzo");
+const grupo1 = new Grupo("01/01/2020", "Grupo para el mes de enero", claseQuinto);
+const grupo2 = new Grupo("01/02/2020", "Grupo para el mes de febrero", claseQuinto);
+const grupo3 = new Grupo("01/03/2020", "Grupo para el mes de marzo", claseQuinto);
 
 claseQuinto.grupos.push(grupo1, grupo2, grupo3);
 

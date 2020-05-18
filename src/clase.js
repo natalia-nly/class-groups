@@ -9,26 +9,11 @@ class Clase {
     }
 
     numGirls(){
-        let arrayGirl = [];
-
-        this.alumnos.forEach(alumno => {
-            if (alumno.genero === "Niña"){
-                arrayGirl.push(alumno);
-            }
-        });
-
-        return arrayGirl;
+        return this.alumnos.filter(alumno => alumno.genero === "Niña");
     }
 
     numBoys(){
-        let arrayBoy = [];
-
-        this.alumnos.forEach(alumno => {
-            if (alumno.genero === "Niño"){
-                arrayBoy.push(alumno);
-            }
-        });
-
-        return arrayBoy;
+        return this.alumnos.filter(alumno => alumno.genero === "Niño");
     }
 }
+

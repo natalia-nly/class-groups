@@ -14,7 +14,7 @@ let arrayQuinto = [
     },
     {
         nombre: "Kevin",
-        apellido: "López",
+        apellido: "Fernández",
         genero: "Niño",
         nivel: "Bajo",
         comportamiento: "Mal comportamiento",
@@ -27,21 +27,34 @@ let arrayQuinto = [
     },
     {
         nombre: "Julio",
-        apellido: "López",
+        apellido: "Gomez",
         genero: "Niño",
         nivel: "Alto",
         comportamiento: "Buen comportamiento",
         necesidades: "",
         habilidadesSociales: {
             uno: "Introvertido",
-            dos: "",
+            dos: "Empático",
             tres: "Tranquilo"
         }
     },
     {
-        nombre: "Kevin",
+        nombre: "Mireia",
+        apellido: "Sangalo",
+        genero: "Niña",
+        nivel: "Alto",
+        comportamiento: "Buen comportamiento",
+        necesidades: "",
+        habilidadesSociales: {
+            uno: "Extrovertido",
+            dos: "",
+            tres: "Nervioso"
+        }
+    },
+    {
+        nombre: "Laura",
         apellido: "López",
-        genero: "Niño",
+        genero: "Niña",
         nivel: "Bajo",
         comportamiento: "Mal comportamiento",
         necesidades: "",
@@ -52,22 +65,9 @@ let arrayQuinto = [
         }
     },
     {
-        nombre: "Kevin",
+        nombre: "Laura",
         apellido: "López",
-        genero: "Niño",
-        nivel: "Bajo",
-        comportamiento: "Mal comportamiento",
-        necesidades: "",
-        habilidadesSociales: {
-            uno: "Introvertido",
-            dos: "",
-            tres: "Nervioso"
-        }
-    },
-    {
-        nombre: "Kevin",
-        apellido: "López",
-        genero: "Niño",
+        genero: "Niña",
         nivel: "Bajo",
         comportamiento: "Mal comportamiento",
         necesidades: "",
